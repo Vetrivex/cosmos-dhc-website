@@ -99,28 +99,28 @@ a{
 a.active,a:focus,a:hover{
     opacity:1
 }
-.home{
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-moz-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-pack:center;
-    -webkit-justify-content:center;
-    -moz-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-    background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.48)),color-stop(.01%,rgba(16,18,23)),to(rgba(0,0,0,.48)));
-    background-image:-moz-linear-gradient(top,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217) 100%));
-    background-image:-o-linear-gradient(top,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),url(https://bleed.bot/img/bullshit.jpg);
-    background-image:linear-gradient(180deg,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),url(https://bleed.bot/img/bullshit.jpg);
-    background-image:linear-gradient(180deg,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),url(https://bleed.bot/img/bullshit.jpg) ) background-position: center;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    background-size:cover;
-    height:100vh;
-    width:100vw
+.home {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.48)),color-stop(.01%,rgba(16,18,23)),to(rgba(0,0,0,.48)));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217) 100%));
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),image(C:\Users\voidv\Downloads\bleedbot\assets\fog.jpg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),image(C:\Users\voidv\Downloads\bleedbot\assets\fog.jpg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.8) 0,rgba(0,0,0,.48) .01%,#101217 100%),image(C:\Users\voidv\Downloads\bleedbot\assets\fog.jpg) ) background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw
 }
 .home .model{
     -webkit-box-align:center;
@@ -170,21 +170,21 @@ a.active,a:focus,a:hover{
     -ms-flex-pack:center;
     justify-content:center
 }
-.home .model .header .logo{
-    margin:15px;
-    opacity:.8;
-    background-image:url(https://bleed.bot/img/logo_transparent.png);
-    background-position:center;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    background-size:cover;
-    display:block;
-    height:75vmin;
-    width:75vmin;
-    max-height:440px;
-    max-width:440px
-}
+    .home .model .header .logo {
+        margin: 15px;
+        opacity: .8;
+        background-image: image(C:\Users\voidv\Downloads\bleedbot\assets\logo_transparent.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        display: block;
+        height: 75vmin;
+        width: 75vmin;
+        max-height: 440px;
+        max-width: 440px
+    }
 .home .model .header .title{
     margin:15px;
     color:#9ca0a4;
