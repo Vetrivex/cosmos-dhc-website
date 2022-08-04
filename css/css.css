@@ -173,7 +173,7 @@ a.active,a:focus,a:hover{
 }
     .home .model .header .logo {
         margin: 15px;
-        opacity: .8;
+        opacity: 1;
         background-image: url(https://raw.githubusercontent.com/Vetrivex/cosmos-dhc-website/a6325538ac4aa7397421295139cf76b1dced6273/assets/logo_transparent.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -225,7 +225,7 @@ a.active,a:focus,a:hover{
 }
 .logo {
     margin: 15px;
-    opacity: .8;
+    opacity: 1;
     background-image: url(https://raw.githubusercontent.com/Vetrivex/cosmos-dhc-website/a6325538ac4aa7397421295139cf76b1dced6273/assets/logo_transparent.png);
     background-position: center;
     background-repeat: no-repeat;
